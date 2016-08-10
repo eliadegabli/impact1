@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backrstar"
+    >
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="140dp"
+       android:background="@drawable/image"
+       android:layout_marginTop="50dp"
+
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameEditText"
+        android:hint="שם משתמש"
+
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:inputType="textPassword"
+        android:id="@+id/passwordEditText"
+        android:hint="סיסמא"
+        android:gravity="right"
+        android:textColor="#fdfcfc"
+        android:textColorHint="#ffffff" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:src="@drawable/connect"
+        android:id="@+id/onSystemButton"
+        android:onClick="onClick"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginBottom="240dp"
+        android:background="#ffffff" />
+
+</LinearLayout>

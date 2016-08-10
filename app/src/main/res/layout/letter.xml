@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/backrstar"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/image"
+        android:layout_marginTop="60dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="140dp"
+        android:id="@+id/one_to_three"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <ImageButton
+            android:id="@+id/gradubutton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradu"
+            android:onClick="onClickgrad"
+            android:textSize="25sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="150dp"
+            android:background="#cac6e8" />
+        <ImageButton
+            android:id="@+id/scolarButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/scolar"
+            android:onClick="onClickScol"
+            android:textSize="25sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="150dp"
+            android:background="#cac6e8" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/zsc"
+            android:onClick="onCzsc" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

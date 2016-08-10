@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrstar"
+    android:clickable="false"
+    android:orientation="vertical"
+    tools:context="com.example.eliad.impact1.homeScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/image"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/one_to_three"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <ImageButton
+                android:id="@+id/gradubutton1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradu"
+                android:onClick="onClickgrad"
+                android:textSize="25sp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="150dp"
+                android:background="#cac6e8" />
+            <ImageButton
+                android:id="@+id/scolarButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/scolar"
+                android:onClick="onClickScol"
+                android:textSize="25sp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="150dp"
+                android:background="#cac6e8" />
+            <ImageButton
+                android:id="@+id/candidateButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/candidat"
+                android:onClick="candid"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
