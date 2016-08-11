@@ -22,6 +22,7 @@
             android:id="@+id/log_out"
             android:layout_width="42dp"
             android:gravity="left"
+            android:layout_marginLeft="10dp"
             android:layout_height="42dp"
             android:src="@drawable/exit" />
 
