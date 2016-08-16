@@ -22,8 +22,8 @@ public class letter extends Activity {
 
     }
 
-    public void onCzsc(View v) {
-        if (v.getId() == R.id.zsc) {
+    public void onClickprocedure(View v) {
+        if (v.getId() == R.id.procedure) {
             Intent i = new Intent(Intent.ACTION_VIEW,
                     Uri.parse("http://82.80.37.66/impact/pdf/Procedure_Letter_Donor.pdf"));
             startActivity(i);

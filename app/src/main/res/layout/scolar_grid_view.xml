@@ -75,6 +75,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
                 android:background="@drawable/community"
+                android:onClick="OnClickOne_btn"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"

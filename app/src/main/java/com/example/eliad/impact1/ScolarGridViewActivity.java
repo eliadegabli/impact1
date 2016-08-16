@@ -41,8 +41,7 @@ public class ScolarGridViewActivity  extends Activity {
 
 
         userName.setText(Scolar.name + " " + "שלום");        userName.setTextColor(Color.WHITE);
-        // Instance of ImageAdapter Class
-        //gridView.setAdapter(new ImageAdapter(this));
+
 
         log_out_bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +62,13 @@ public class ScolarGridViewActivity  extends Activity {
     public void onClickLetter(View v) {
         if (v.getId() == R.id.two_btn) {
             Intent i = new Intent(ScolarGridViewActivity.this,letter.class);
+            startActivity(i);
+        }
+    }
+
+    public void OnClickOne_btn(View v) {
+        if (v.getId() == R.id.one_btn) {
+            Intent i = new Intent(ScolarGridViewActivity.this,personal_info.class);
             startActivity(i);
         }
     }

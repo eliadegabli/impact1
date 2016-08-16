@@ -137,40 +137,6 @@ public class Scolar extends Activity {
     }
 
 
-    /*@Override
-    public void onClick(View v) {
-        HashMap postData = new HashMap();
-        postData.put("btnLogin", "Login");
-        postData.put("mobile", "android");
-        postData.put("txtUsername", etName.getText().toString());
-        postData.put("txtPassword", etPassword.getText().toString());
 
-//       Intent i = new Intent(Scolar.this,ScolarGridViewActivity.class);
-//
-//        i.putExtra("userKey",etName.getText().toString());
-//
-//        startActivity(i);
-
-
-        PostResponseAsyncTask loginTask =
-                new PostResponseAsyncTask(Scolar.this, postData);
-        loginTask.execute("http://eliadegabli.netau.net/login.php");
-
-
-    }*/
-
-
-    /*@Override
-    public void processFinish(String output) {
-        if(output.equals("success")){
-            Toast.makeText(this, "Login Successfully",
-                    Toast.LENGTH_LONG).show();
-            Intent i = new Intent(Scolar.this,ScolarGridViewActivity.class);
-
-        i.putExtra("userKey",etName.getText().toString());
-
-        startActivity(i);
-    }
-}*/
 
 }

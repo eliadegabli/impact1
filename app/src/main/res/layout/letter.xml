@@ -30,6 +30,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
+            android:background="@drawable/formatletter"
             android:onClick="onClickformat"
             android:textSize="25sp" />
         <View
@@ -41,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/sendletter"
             android:onClick="onClickupload"
             android:textSize="25sp" />
         <View
@@ -54,8 +56,9 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:id="@+id/zsc"
-            android:onClick="onCzsc" />
+            android:background="@drawable/noahlmichtav"
+            android:id="@+id/procedure"
+            android:onClick="onClickprocedure" />
     </LinearLayout>
 
 
