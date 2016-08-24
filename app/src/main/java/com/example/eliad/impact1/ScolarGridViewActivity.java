@@ -7,21 +7,11 @@ package com.example.eliad.impact1;
         import android.content.Intent;
         import android.content.SharedPreferences;
         import android.graphics.Color;
-        import android.net.Uri;
         import android.os.Bundle;
         import android.preference.PreferenceManager;
-        import android.view.MotionEvent;
         import android.view.View;
-        import android.widget.AdapterView;
-        import android.widget.AdapterView.OnItemClickListener;
-        import android.widget.Button;
-        import android.widget.GridView;
         import android.widget.ImageButton;
         import android.widget.TextView;
-
-        import org.json.JSONArray;
-        import org.json.JSONException;
-        import org.json.JSONObject;
 
 public class ScolarGridViewActivity  extends Activity {
 
@@ -68,7 +58,14 @@ public class ScolarGridViewActivity  extends Activity {
 
     public void OnClickOne_btn(View v) {
         if (v.getId() == R.id.one_btn) {
-            Intent i = new Intent(ScolarGridViewActivity.this,personal_info.class);
+            Intent i = new Intent(ScolarGridViewActivity.this,volentter_info.class);
+            startActivity(i);
+        }
+    }
+
+    public void OnClickUser_info(View v) {
+        if (v.getId() == R.id.three_btn) {
+            Intent i = new Intent(ScolarGridViewActivity.this,User_info.class);
             startActivity(i);
         }
     }

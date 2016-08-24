@@ -11,6 +11,7 @@
     <string name="grid8">irgty</string>
     <string name="grid9">irity</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="USER_INFO">מידע אישי</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -102,4 +103,6 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_personal_info">personalInfo</string>
+    <string name="title_activity_user_info">user_info</string>
+    <string name="title_activity_user__info">User_Info</string>
 </resources>

@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backrstar"
-    tools:context="com.example.eliad.impact1.personal_info">
+    android:background="#000033"
+    tools:context=".volentter_info">
 
     <ImageView
         android:layout_width="match_parent"
@@ -33,8 +33,7 @@
 
             <ImageButton
                 android:id="@+id/one_btn"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="50dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
@@ -48,8 +47,7 @@
 
             <ImageButton
                 android:id="@+id/three_btn"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="35dp"
+                android:layout_marginRight="50dp"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"

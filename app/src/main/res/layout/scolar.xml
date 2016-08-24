@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backrstar"
+    android:background="#000033"
     >
 
    <ImageView
@@ -40,9 +40,12 @@
         android:textColor="#fdfcfc"
         android:textColorHint="#ffffff" />
 
-    <ImageButton
+    <Button
         android:layout_width="match_parent"
-
+        android:text="connect!"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:textColor="#3949AB"
         android:layout_height="0dp"
         android:layout_weight="0.05"
         android:src="@drawable/connect"
@@ -50,6 +53,6 @@
         android:onClick="onClick"
         android:layout_below="@+id/passwordEditText"
         android:layout_marginBottom="240dp"
-        android:background="#ffffff" />
+        android:background="#85929E" />
 
 </LinearLayout>
