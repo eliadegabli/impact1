@@ -63,6 +63,12 @@ public class ScolarGridViewActivity  extends Activity {
         }
     }
 
+    public void OnClickUser_info(View v) {
+        if (v.getId() == R.id.three_btn) {
+            Intent i = new Intent(ScolarGridViewActivity.this,User_info.class);
+            startActivity(i);
+        }
+    }
 
     public void Onclickfive_btn(View v) {
         if (v.getId() == R.id.five_btn) {
