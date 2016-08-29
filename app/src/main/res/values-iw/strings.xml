@@ -3,4 +3,8 @@
     <string name="my_name">שם משתמש</string>
     <string name="grid1">אינמקט לקהילה</string>
     <string name="USER_INFO">מידע אישי</string>
+    <string name="volentter">התנדבות בקהילה</string>
+    <string name="register">התחברות</string>
+    <string name="letter">מכתב לתורם</string>
+    <string name="etz">עץ הדעת</string>
 </resources>

@@ -40,7 +40,7 @@ import java.util.List;
 public class Scolar extends Activity {
     static String name;
     EditText etName, etPassword;
-    ImageButton btnConnect;
+    Button btnConnect;
     HttpPost httppost;
     StringBuffer buffer;
     HttpResponse response;
@@ -57,7 +57,7 @@ public class Scolar extends Activity {
 
         etName = (EditText) findViewById(R.id.nameEditText);
         etPassword = (EditText) findViewById(R.id.passwordEditText);
-        btnConnect = (ImageButton) findViewById(R.id.onSystemButton);
+        btnConnect = (Button) findViewById(R.id.onSystemButton);
         btnConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

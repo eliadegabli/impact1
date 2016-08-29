@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000033"
+    android:background="@drawable/back"
     android:clickable="false"
     android:orientation="vertical"
     tools:context="com.example.eliad.impact1.homeScreen">
@@ -36,7 +36,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/gradu"
+                android:background="@drawable/grad1"
                 android:onClick="onClickgrad"
                 android:textSize="25sp" />
             <View
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/scolar"
+                android:background="@drawable/scolar1"
                 android:onClick="onClickScol"
                 android:textSize="25sp" />
             <View
@@ -62,7 +62,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/candidat"
+                android:background="@drawable/candidate1"
                 android:onClick="candid"
                 android:textSize="25sp" />
         </LinearLayout>

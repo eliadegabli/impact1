@@ -4,14 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000033"
+    android:background="@drawable/back"
     tools:context=".volentter_info">
+
+    <TextView
+        android:id="@+id/text_view_user_name"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:padding="10dp"
+        android:layout_height="50dp"
+        android:text="@string/volentter"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:background="@drawable/image"
-        android:layout_marginTop="60dp"
         android:layout_marginBottom="40dp"
         />
 
@@ -37,7 +46,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/reporttodownload"
+                android:background="@drawable/reporttodownload1"
                 android:textSize="25sp" />
 
             <View
@@ -51,7 +60,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/volentterplace"
+                android:background="@drawable/volentterplace1"
                 android:textSize="25sp" />
 
         </LinearLayout>
@@ -69,7 +78,7 @@
 
 
             <ImageButton
-                android:background="@drawable/nohalitnadvut"
+                android:background="@drawable/nohalitnadvut1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
@@ -84,7 +93,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/downloadregister"
+                android:background="@drawable/downloadregister1"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -96,7 +105,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/volentterhowerr"
+                android:background="@drawable/volentterhowerr1"
                 android:textSize="25sp" />
         </LinearLayout>
 
@@ -112,7 +121,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/backrstar"
+                android:background="#00ffffff"
                 android:textSize="25sp" />
 
 
@@ -120,7 +129,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/backrstar"
+                android:background="#00ffffff"
                 android:textSize="25sp" />
 
 
@@ -129,7 +138,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/backrstar"
+                android:background="#00ffffff"
                 android:textSize="25sp" />
 
         </LinearLayout>

@@ -5,7 +5,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000033"
+    android:background="@drawable/back"
     android:orientation="vertical"
     >
 
@@ -74,7 +74,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/community"
+                android:background="@drawable/community1"
                 android:onClick="OnClickOne_btn"
                 android:textSize="25sp" />
             <View
@@ -86,7 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/sendllet"
+                android:background="@drawable/sendllet1"
                 android:onClick="onClickLetter"
                 android:textSize="25sp" />
             <View
@@ -98,7 +98,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/info"
+                android:background="@drawable/info1"
                 android:onClick="OnClickUser_info"
                 android:textSize="25sp" />
 
@@ -121,7 +121,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/usa"
+                android:background="@drawable/usa1"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -133,7 +133,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/tree"
+                android:background="@drawable/tree1"
+                android:onClick="Onclickfive_btn"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -145,7 +146,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/meet"
+                android:background="@drawable/meet1"
                 android:textSize="25sp" />
         </LinearLayout>
         <View
@@ -165,7 +166,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/restart"
+                android:background="@drawable/restart1"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -177,7 +178,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/jobs"
+                android:background="@drawable/jobs1"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -189,7 +190,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/donor"
+                android:background="@drawable/donor1"
                 android:textSize="25sp" />
 
         </LinearLayout>

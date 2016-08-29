@@ -3,14 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000033"
+    android:background="@drawable/back"
     >
 
+    <TextView
+        android:id="@+id/text_view_user_name"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:padding="10dp"
+        android:layout_height="50dp"
+        android:text="@string/register"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
    <ImageView
        android:layout_width="match_parent"
        android:layout_height="140dp"
        android:background="@drawable/image"
-       android:layout_marginTop="50dp"
+
 
        />
     <EditText
@@ -41,18 +50,15 @@
         android:textColorHint="#ffffff" />
 
     <Button
-        android:layout_width="match_parent"
-        android:text="connect!"
-        android:textSize="28dp"
-        android:textStyle="italic"
-        android:textColor="#3949AB"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_height="0dp"
         android:layout_weight="0.05"
-        android:src="@drawable/connect"
+
         android:id="@+id/onSystemButton"
         android:onClick="onClick"
         android:layout_below="@+id/passwordEditText"
         android:layout_marginBottom="240dp"
-        android:background="#85929E" />
+        android:background="@drawable/connect11" />
 
 </LinearLayout>

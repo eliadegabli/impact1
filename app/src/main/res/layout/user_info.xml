@@ -4,19 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000033"
+    android:background="@drawable/back"
     tools:context="com.example.eliad.impact1.User_info">
 
 
         <TextView
-            android:id="@+id/text_view_user_name"
-            android:layout_width="match_parent"
-            android:gravity="right"
-            android:padding="10dp"
-            android:layout_height="50dp"
-            android:text="@string/USER_INFO"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
+    android:id="@+id/text_view_user_name"
+    android:layout_width="match_parent"
+    android:gravity="right"
+    android:padding="10dp"
+    android:layout_height="50dp"
+    android:text="@string/USER_INFO"
+    android:textColor="#ffffff"
+    android:textSize="20sp" />
 
 
         <ImageView

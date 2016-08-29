@@ -13,7 +13,7 @@
         android:gravity="right"
         android:padding="10dp"
         android:layout_height="50dp"
-        android:text="@string/letter"
+        android:text="@string/etz"
         android:textColor="#ffffff"
         android:textSize="20sp" />
 
@@ -39,7 +39,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:background="@drawable/formatletter1"
+            android:background="@drawable/nextsadna1"
             android:onClick="onClickformat"
             android:textSize="25sp" />
         <View
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/sendletter1"
+            android:background="@drawable/hetzdaatclali1"
             android:onClick="onClickupload"
             android:textSize="25sp" />
         <View
@@ -65,7 +65,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:background="@drawable/noahlmichtav1"
+            android:background="@drawable/signtosadna1"
             android:id="@+id/procedure"
             android:onClick="onClickprocedure" />
     </LinearLayout>

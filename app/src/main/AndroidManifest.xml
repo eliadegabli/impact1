@@ -36,7 +36,8 @@
             android:screenOrientation="locked"
             android:theme="@style/AppTheme" />
         <activity android:name=".volentter_info" />
-        <activity android:name=".User_info"></activity>
+        <activity android:name=".User_info" />
+        <activity android:name=".etz_dahat"></activity>
     </application>
 
 </manifest>
