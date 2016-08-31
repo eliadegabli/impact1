@@ -26,6 +26,8 @@
 
     <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
 
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/gudamall"
@@ -59,32 +61,31 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".volentter_info" />
         <activity android:name=".User_info" />
-        <activity android:name=".etz_dahat"></activity>
-
+        <activity android:name=".etz_dahat" />
 
         <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
         <android:uses-permission
             android:name="android.permission.READ_EXTERNAL_STORAGE"
             android:maxSdkVersion="18" />
+
         <receiver
             android:name=".ConnectionChangeReceiver"
-            android:label="NetworkConnection" >
+            android:label="NetworkConnection">
             <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" >
-                </action>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
             </intent-filter>
         </receiver>
-
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
                 <category android:name="com.example.gcm" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name=".GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
@@ -98,10 +99,7 @@
 
         <service android:name=".GCMNotificationIntentService" />
 
-
-
-
-
+        <activity android:name=".volunteerHours"></activity>
     </application>
 
 </manifest>

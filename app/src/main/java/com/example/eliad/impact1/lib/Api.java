@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.example.eliad.impact1.ScolarGridViewActivity;
 import com.example.eliad.impact1.letter;
+import com.example.eliad.impact1.volunteerHours;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -111,6 +112,28 @@ import java.util.List;
 
 
                     break;
+
+                case 3:// getVolunteerHours
+                    try {
+                        error = jsonObj.getString(Const.API_RESULTS_ERROR);
+
+                        if (error.equals("1")) {
+                            Toast.makeText(context, "Fail to get Volunteer Hours" , Toast.LENGTH_LONG).show();
+
+                        } else {
+                            String VolunteerHours = jsonObj.getString(Const.TAG_VOLUNTEER);
+                            context.startActivity(new Intent(context, volunteerHours.class));
+                        }
+
+
+                    }catch (Exception e){
+
+                    }
+
+
+
+                    break;
+
 
             }
         }
