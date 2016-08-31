@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     android:background="@drawable/back"
     >
@@ -23,58 +22,11 @@
         android:background="@drawable/image"
         />
 
-    <LinearLayout
-        android:layout_marginTop="140dp"
-        android:id="@+id/one_to_three"
+    <ListView
+        android:background="#fff"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        >
-
-        <ImageButton
-            android:id="@+id/formatLetter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/formatletter1"
-            android:onClick="onClickformat"
-            android:textSize="25sp" />
-        <View
-            android:layout_width="1dp"
-            android:layout_height="150dp"
-            android:background="#cac6e8" />
-        <ImageButton
-            android:id="@+id/uploadLetter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/sendletter1"
-            android:onClick="onClickupload"
-            android:textSize="25sp" />
-        <View
-            android:layout_width="1dp"
-            android:layout_height="150dp"
-            android:background="#cac6e8" />
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/noahlmichtav1"
-            android:id="@+id/procedure"
-            android:onClick="onClickprocedure" />
-    </LinearLayout>
-
-
-
-
-
-
+        android:layout_height="wrap_content"
+        android:id="@+id/LV_DEPOSTIES" />
 
 
 </LinearLayout>

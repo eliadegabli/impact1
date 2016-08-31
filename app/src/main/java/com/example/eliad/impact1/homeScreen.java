@@ -20,12 +20,12 @@ public class homeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-        SharedPreferences sharedPrefs = PreferenceManager
+      /*  SharedPreferences sharedPrefs = PreferenceManager
                 .getDefaultSharedPreferences(this);
 
       if(sharedPrefs.getBoolean("isEnteredToApp",false)){
           startActivity(new Intent(this, ScolarGridViewActivity.class));
-      }
+      }*/
 
     }
 

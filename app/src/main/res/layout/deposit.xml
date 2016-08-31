@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Amount"
+            android:id="@+id/TV_AMOUNT"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/TV_ID"
+            android:layout_toEndOf="@+id/TV_ID" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="date"
+            android:id="@+id/TV_DATE"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:layout_alignTop="@+id/TV_AMOUNT"
+            android:layout_toRightOf="@+id/TV_AMOUNT"
+            android:layout_toEndOf="@+id/TV_AMOUNT" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="id"
+            android:id="@+id/TV_ID"
+            android:layout_alignTop="@+id/TV_AMOUNT"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp" />
+    </RelativeLayout>
+</LinearLayout>

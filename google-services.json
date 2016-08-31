@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1034516204367",
+    "project_id": "impact-141921"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034516204367:android:a5b474955d625d9e",
+        "android_client_info": {
+          "package_name": "com.example.eliad.impact1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAygXL3eXPBzgBdEFLWSb2-EWLG4Vv-260"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

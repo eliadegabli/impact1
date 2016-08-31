@@ -4,21 +4,24 @@ package com.example.eliad.impact1;
  * Created by Eliad on 05/01/2016.
  */
         import android.app.Activity;
+        import android.content.Context;
         import android.content.Intent;
-        import android.content.SharedPreferences;
-        import android.graphics.Color;
-        import android.os.Bundle;
-        import android.preference.PreferenceManager;
-        import android.view.View;
-        import android.widget.ImageButton;
-        import android.widget.TextView;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+        import com.example.eliad.impact1.lib.Api;
+        import com.example.eliad.impact1.lib.User;
+
+        import java.util.HashMap;
 
 public class ScolarGridViewActivity  extends Activity {
 
-
+    Context context = ScolarGridViewActivity.this;
     TextView userName;
     ImageButton log_out_bt;
-
+    private HashMap<String, String> valuse = new HashMap<String, String>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,18 +33,13 @@ public class ScolarGridViewActivity  extends Activity {
         log_out_bt =(ImageButton)findViewById(R.id.log_out);
 
 
-        userName.setText(Scolar.name + " " + "שלום");        userName.setTextColor(Color.WHITE);
-
+        userName.setText(User.getLname() +" "+User.getFname());
 
         log_out_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences sharedPrefs = PreferenceManager
-                        .getDefaultSharedPreferences(getApplicationContext());
-                sharedPrefs.edit().putBoolean("isEnteredToApp",false).commit();
-
-                startActivity(new Intent(getApplicationContext(), homeScreen.class));
-                finish();
+                User.logOut();
+                context.startActivity(new Intent(context, homeScreen.class));
 
 
             }
@@ -51,8 +49,13 @@ public class ScolarGridViewActivity  extends Activity {
 
     public void onClickLetter(View v) {
         if (v.getId() == R.id.two_btn) {
-            Intent i = new Intent(ScolarGridViewActivity.this,letter.class);
-            startActivity(i);
+            String tag = "getDeposits";
+            valuse.put("userid", User.getId());
+            valuse.put("action", "getDeposits");
+            Api api = new Api(valuse, context, 2, tag, "Get Deposits");
+            api.execute();
+
+
         }
     }
 
