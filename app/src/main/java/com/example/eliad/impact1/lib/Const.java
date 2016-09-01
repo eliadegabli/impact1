@@ -14,6 +14,7 @@ public class Const {
     public static String SENDER_ID ="1034516204367";
     public static String MESSAGE_KEY = "price";
     public static String TAG_VOLUNTEER= "houers";
+    public static String TAG_NOTIFICATIONS="notifications";
 
 
 }

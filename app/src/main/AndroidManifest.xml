@@ -73,7 +73,7 @@
             android:name=".ConnectionChangeReceiver"
             android:label="NetworkConnection">
             <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
         <receiver
@@ -99,7 +99,8 @@
 
         <service android:name=".GCMNotificationIntentService" />
 
-        <activity android:name=".volunteerHours"></activity>
+        <activity android:name=".volunteerHours" />
+        <activity android:name=".notificationActivity"></activity>
     </application>
 
 </manifest>

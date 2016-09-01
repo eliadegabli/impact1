@@ -12,7 +12,7 @@
         android:gravity="right"
         android:padding="10dp"
         android:layout_height="50dp"
-        android:text="@string/letter"
+        android:text="@string/NOTIFICATION"
         android:textColor="#ffffff"
         android:textSize="20sp" />
 
@@ -21,14 +21,22 @@
         android:layout_height="140dp"
         android:background="@drawable/image"
         />
-
-
-    <ListView
-        android:layout_margin="18dp"
-        android:background="#fff"
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/LV_DEPOSTIES" />
+        android:text="Notifications:"
+        />
+
+    <ListView
+        android:layout_margin="15dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LV_NOTIFICATION" />
 
 
 </LinearLayout>

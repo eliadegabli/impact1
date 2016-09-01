@@ -55,6 +55,9 @@ public class Deposit {
         this.id = id;
     }
 
+    public static void clearList() {
+        list=new ArrayList<Deposit>();
+    }
 
     public static void setDeposits (String deposits) {
         JSONArray jArray = null;

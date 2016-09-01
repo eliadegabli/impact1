@@ -21,12 +21,39 @@
         android:layout_height="140dp"
         android:background="@drawable/image"
         />
-
-    <ListView
-        android:background="#fff"
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="sdf"
+        android:id="@+id/TV_PROJECT"
+        />
+
+    <ListView
+        android:layout_margin="15dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
         android:id="@+id/LV_HUORE" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textColor="#fff"
+            android:id="@+id/TV_TOTAL" />
+    </LinearLayout>
 
 
 </LinearLayout>

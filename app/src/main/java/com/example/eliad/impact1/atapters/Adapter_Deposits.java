@@ -63,8 +63,6 @@ public class Adapter_Deposits extends ArrayAdapter<Deposit> {
         final Deposit deposit =  deposits.get(position);
         vi = inflater.inflate(R.layout.deposit, null);
 
-        TextView id =  (TextView)vi.findViewById(R.id.TV_ID);
-        id.setText(deposit.getId());
 
         TextView amount =  (TextView)vi.findViewById(R.id.TV_AMOUNT);
         amount.setText(deposit.getAmount()+" $");

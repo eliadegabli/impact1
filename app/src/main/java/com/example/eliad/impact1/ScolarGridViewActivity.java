@@ -73,6 +73,17 @@ public class ScolarGridViewActivity  extends Activity {
         }
     }
 
+    public void onClickNotification(View v){
+        if (v.getId() == R.id.seven_btn) {
+                    String tag = "getNotifications";
+                    valuse.put("userid", User.getId());
+                    valuse.put("action", "getNotifications");
+                    Api api = new Api(valuse, context, 4, tag, "Get Notifications...");
+                    api.execute();
+            }
+        }
+
+
     public void Onclickfive_btn(View v) {
         if (v.getId() == R.id.five_btn) {
             Intent i = new Intent(ScolarGridViewActivity.this,etz_dahat.class);

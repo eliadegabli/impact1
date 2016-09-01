@@ -130,7 +130,7 @@ public class GCMNotificationIntentService extends IntentService {
                 .setAutoCancel(true);
 
 
-        remoteViews.setTextViewText(R.id.TV_NOTIFICATION, message);
+      //  remoteViews.setTextViewText(R.id.TV_NOTIFICATION, message);
      //   remoteViews.setImageViewBitmap(R.id.IV_NOTIFICATIONIMG, ImagesDownloader.downloadBitmap(userImage));
         mBuilder.setDefaults(NotificationCompat.DEFAULT_VIBRATE);
 

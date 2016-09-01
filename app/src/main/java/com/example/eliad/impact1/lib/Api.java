@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.example.eliad.impact1.ScolarGridViewActivity;
 import com.example.eliad.impact1.letter;
+import com.example.eliad.impact1.notificationActivity;
 import com.example.eliad.impact1.volunteerHours;
 
 import org.apache.http.NameValuePair;
@@ -135,6 +136,27 @@ import java.util.List;
 
                     break;
 
+                case 4:// getNotification
+                    try {
+                        error = jsonObj.getString(Const.API_RESULTS_ERROR);
+
+                        if (error.equals("1")) {
+                            Toast.makeText(context, "Fail to get Notifications." , Toast.LENGTH_LONG).show();
+
+                        } else {
+                            String notification = jsonObj.getString(Const.TAG_NOTIFICATIONS);
+                            Notification.setNotification(notification);
+                            context.startActivity(new Intent(context, notificationActivity.class));
+                        }
+
+
+                    }catch (Exception e){
+
+                    }
+
+
+
+                    break;
 
             }
         }

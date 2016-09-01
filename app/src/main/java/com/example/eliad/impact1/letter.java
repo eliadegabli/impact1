@@ -26,6 +26,7 @@ public class letter extends Activity {
         feeds.setAdapter(deposits_adapter);
         deposits_adapter.notifyDataSetChanged();
 
+        Deposit.clearList();
 
     }
 
