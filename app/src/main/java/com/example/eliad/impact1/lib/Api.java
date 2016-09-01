@@ -122,6 +122,7 @@ import java.util.List;
 
                         } else {
                             String VolunteerHours = jsonObj.getString(Const.TAG_VOLUNTEER);
+                            Houre.setHoures(VolunteerHours);
                             context.startActivity(new Intent(context, volunteerHours.class));
                         }
 

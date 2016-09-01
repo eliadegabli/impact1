@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/back"
-    tools:context="com.example.eliad.impact1.User_info"
-    android:weightSum="1">
-
+    >
 
     <TextView
         android:id="@+id/text_view_user_name"
@@ -19,77 +16,17 @@
         android:textColor="#ffffff"
         android:textSize="20sp" />
 
-
     <ImageView
         android:layout_width="match_parent"
-        android:background="@drawable/image"
         android:layout_height="140dp"
+        android:background="@drawable/image"
         />
 
-
-    <LinearLayout
-        android:background="#fffff4"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
+    <ListView
+        android:background="#fff"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="December:"
-            android:id="@+id/textView"
-            android:layout_margin="5dp"
-            android:editable="true"
-            android:layout_marginLeft="5dp"
-            android:textStyle="normal|bold|italic" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/TV_ID"
-            android:text="1000$"
-            android:layout_gravity="center_horizontal"
-            android:editable="false" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="March: "
-            android:id="@+id/textView2"
-            android:layout_margin="5dp"
-            android:textStyle="normal|bold|italic" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="1000$"
-            android:id="@+id/TV_NAME"
-            android:layout_gravity="center_horizontal"
-            android:editable="false" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="July: "
-            android:id="@+id/textView4"
-            android:layout_margin="5dp"
-            android:textStyle="normal|bold|italic" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="2000$"
-            android:id="@+id/TV_EMAIL"
-            android:layout_gravity="center_horizontal"
-            android:editable="false" />
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:id="@+id/LV_HUORE" />
 
 
 </LinearLayout>

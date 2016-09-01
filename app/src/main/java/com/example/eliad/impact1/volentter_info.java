@@ -23,10 +23,10 @@ public class volentter_info extends AppCompatActivity {
 
     public void OnClickVolunteerHours(View v){
         if (v.getId() == R.id.six_btn){
-            String tag = "getVolunteerHoursByUserID";
+            String tag = "getVolunteerHours";
             valuse.put("userid", User.getId());
-            valuse.put("action", "getVolunteerHoursByUserID");
-            Api api = new Api(valuse, context, 3, tag, "Get VolunteerHours");
+            valuse.put("action", "getVolunteerHours");
+            Api api = new Api(valuse, context, 3, tag, "Get Volunteer Hours...");
             api.execute();
         }
     }
