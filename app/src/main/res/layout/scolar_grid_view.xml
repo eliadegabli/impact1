@@ -54,6 +54,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_margin="15dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
@@ -86,7 +87,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/sendllet1"
+                android:background="@drawable/depositis"
                 android:onClick="onClickLetter"
                 android:textSize="25sp" />
             <View
@@ -167,7 +168,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
                 android:onClick="onClickNotification"
-                android:background="@drawable/restart1"
+                android:background="@drawable/notifiction"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -175,11 +176,12 @@
                 android:background="#cac6e8" />
 
             <ImageButton
-                android:id="@+id/eight_btn"
+                android:id="@+id/TV_EMAIL_USER_PROFILE"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/jobs1"
+                android:onClick="OnclickConnect"
+                android:background="@drawable/connect2"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -204,14 +206,14 @@
         android:id="@+id/zero"
         android:layout_width="180dp"
         android:layout_height="0dp"
-        android:layout_weight="0.08"
+        android:layout_weight="0.01"
         android:layout_gravity="center"
         android:layout_marginTop="11dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:orientation="horizontal"
-        android:background="@drawable/connect2"
-        android:layout_marginBottom="8dp"
+        android:background="#00ffffff"
+
         >
 
         <ImageButton

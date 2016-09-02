@@ -59,6 +59,17 @@ public class ScolarGridViewActivity  extends Activity {
         }
     }
 
+    public void OnclickConnect(View v) {
+        if (v.getId() == R.id.TV_EMAIL_USER_PROFILE) {
+            Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+            emailIntent.setType("text/plain");
+            emailIntent.setClassName("com.google.android.gm", "com.google.android.gm.ComposeActivityGmail");
+            emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"impact@gmail.com"});
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "For: ");
+            startActivity(emailIntent);
+        }
+    }
+
     public void OnClickOne_btn(View v) {
         if (v.getId() == R.id.one_btn) {
             Intent i = new Intent(ScolarGridViewActivity.this,volentter_info.class);
