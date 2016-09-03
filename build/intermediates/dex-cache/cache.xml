@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-d1a2abc55d22bd83b9fe4dc6a84ea223c45fc36a.jar" />
-    </item>
-    <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -23,34 +16,6 @@
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-4a9751839ed7dafcd8ccb209629d307cbc58a2c6.jar" />
     </item>
     <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-b816322495d833d90a3fbd98ba234498abcdcf34.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e2f9de10e6894c3aaef1240804a12b5bc6b0af92.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-af09b8b9180102d012fe2902e783efeb0d5471ee.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-81d68e5288fcc0e4d037f9159f0e36fdd8ff9674.jar" />
-    </item>
-    <item
         jar="C:\Users\Eliad\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -58,11 +23,39 @@
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e4934e7718074777a96da8b99cb7d87e54a0eeb3.jar" />
     </item>
     <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-dce8a79ac0dae7f62113f6bde424d1d70aca2a7d.jar" />
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-d1a2abc55d22bd83b9fe4dc6a84ea223c45fc36a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e9062120cf287780dabdb68833635d8cb08662a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e95b4b4d5c3766a6e542b7089f7c84eb023959a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-3c0b7202a7f8167a1802d78c73d25bdb9f4844f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-b3a69f1648a19dfc2200532a0a776f78e1e77c2f.jar" />
     </item>
     <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
@@ -72,25 +65,39 @@
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-20926c86e2ca6f78c11108a8608230c0aed8df43.jar" />
     </item>
     <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-81d68e5288fcc0e4d037f9159f0e36fdd8ff9674.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-6ac902768d4df874eb0ff93ea4642ba008492c80.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-b816322495d833d90a3fbd98ba234498abcdcf34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-af09b8b9180102d012fe2902e783efeb0d5471ee.jar" />
+    </item>
+    <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-73b4f3730d6e6845c02d449b4b45a823ee9f9c41.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-4938b0cc0417476775bd650ff092b3b37501a739.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-0f94484fa2e66852e013dfcc93f168539a4e4ab8.jar" />
     </item>
     <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
@@ -107,6 +114,13 @@
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-b95077b436d408d59e2b69678f5c0412f4124d1d.jar" />
     </item>
     <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e49462bd157595476f71af2bccb8ccb7f92a22cf.jar" />
+    </item>
+    <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -119,6 +133,27 @@
         revision="23.0.0"
         sha1="a78183f30e769a98ab4820794f597763088d3065">
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-643a662524eac9e05e50c5104cda226c3c7845e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-aa934b0564428add3c39e7dc0e02e41ca5ad9b82.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-dce8a79ac0dae7f62113f6bde424d1d70aca2a7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-4938b0cc0417476775bd650ff092b3b37501a739.jar" />
     </item>
     <item
         jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
@@ -135,53 +170,18 @@
         <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-05572fc5009933f732b35a0e0b35b621d2858294.jar" />
     </item>
     <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e49462bd157595476f71af2bccb8ccb7f92a22cf.jar" />
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-0f94484fa2e66852e013dfcc93f168539a4e4ab8.jar" />
     </item>
     <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-6ac902768d4df874eb0ff93ea4642ba008492c80.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-b3a69f1648a19dfc2200532a0a776f78e1e77c2f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-aa934b0564428add3c39e7dc0e02e41ca5ad9b82.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-3c0b7202a7f8167a1802d78c73d25bdb9f4844f4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e95b4b4d5c3766a6e542b7089f7c84eb023959a7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e9062120cf287780dabdb68833635d8cb08662a8.jar" />
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Eliad\Desktop\impact1\app\build\intermediates\pre-dexed\debug\classes-e2f9de10e6894c3aaef1240804a12b5bc6b0af92.jar" />
     </item>
 
 </items>

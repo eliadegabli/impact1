@@ -1,6 +1,8 @@
 package com.example.eliad.impact1;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +30,22 @@ public class volentter_info extends AppCompatActivity {
             valuse.put("action", "getVolunteerHours");
             Api api = new Api(valuse, context, 3, tag, "Get Volunteer Hours...");
             api.execute();
+        }
+    }
+
+    public void OnClickPlaces(View v) {
+        if (v.getId() == R.id.five_btn) {
+            Intent i = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("http://82.80.37.66/impact/AWIS_MENU_PAGE.ASP"));
+            startActivity(i);
+        }
+    }
+
+    public void onClickNohalVolenteer(View v){
+        if (v.getId() == R.id.nohalVolenteer) {
+            Intent i = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("http://82.80.37.66/impact/pdf/Procedure_Volunteering.pdf"));
+            startActivity(i);
         }
     }
 }

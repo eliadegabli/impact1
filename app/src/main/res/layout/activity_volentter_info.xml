@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
     android:background="@drawable/back"
-    tools:context=".volentter_info">
+    >
 
     <TextView
         android:id="@+id/text_view_user_name"
@@ -21,130 +21,57 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:background="@drawable/image"
-        android:layout_marginBottom="40dp"
         />
 
     <LinearLayout
+        android:layout_marginTop="140dp"
+        android:id="@+id/one_to_three"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.6"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
         >
 
-        <LinearLayout
-            android:id="@+id/one_to_three"
+        <ImageButton
+            android:id="@+id/nohalVolenteer"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.333"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/one_btn"
-                android:layout_marginLeft="50dp"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="@drawable/reporttodownload1"
-                android:textSize="25sp" />
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="110dp"
-                android:background="#cac6e8" />
-
-            <ImageButton
-                android:id="@+id/three_btn"
-                android:layout_marginRight="50dp"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="@drawable/volentterplace1"
-                android:textSize="25sp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="20dp"
-            android:id="@+id/four_to_six"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/nohalitnadvut1"
+            android:onClick="onClickNohalVolenteer"
+            android:textSize="25sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="150dp"
+            android:background="#cac6e8" />
+        <ImageButton
+            android:id="@+id/six_btn"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.333"
-            android:layout_below="@+id/one_to_three"
-            android:background="#00ffffff"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/volentterhowerr1"
+            android:onClick="OnClickVolunteerHours"
+            android:textSize="25sp" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="150dp"
+            android:background="#cac6e8" />
 
-
-
-            <ImageButton
-                android:background="@drawable/nohalitnadvut1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:textSize="25sp" />
-            <View
-                android:layout_width="1dp"
-                android:layout_height="100dp"
-                android:background="#cac6e8" />
-
-            <ImageButton
-                android:id="@+id/five_btn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="@drawable/downloadregister1"
-                android:textSize="25sp" />
-            <View
-                android:layout_width="1dp"
-                android:layout_height="100dp"
-                android:background="#cac6e8" />
-
-            <ImageButton
-                android:id="@+id/six_btn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="@drawable/volentterhowerr1"
-                android:onClick="OnClickVolunteerHours"
-                android:textSize="25sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/seven_to_nine"
+        <ImageButton
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.333"
-            android:layout_below="@+id/four_to_six"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="#00ffffff"
-                android:textSize="25sp" />
-
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="#00ffffff"
-                android:textSize="25sp" />
-
-
-            <ImageButton
-
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="#00ffffff"
-                android:textSize="25sp" />
-
-        </LinearLayout>
-
-
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/volentterplace1"
+            android:id="@+id/five_btn"
+            android:onClick="OnClickPlaces" />
     </LinearLayout>
 
+
 </LinearLayout>
+
+
+

@@ -6,8 +6,10 @@ package com.example.eliad.impact1;
         import android.app.Activity;
         import android.content.Context;
         import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
+        import android.net.Uri;
+        import android.os.Bundle;
+        import android.support.v7.app.AppCompatActivity;
+        import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -16,7 +18,7 @@ import android.widget.TextView;
 
         import java.util.HashMap;
 
-public class ScolarGridViewActivity  extends Activity {
+public class ScolarGridViewActivity  extends AppCompatActivity {
 
     Context context = ScolarGridViewActivity.this;
     TextView userName;
@@ -98,6 +100,30 @@ public class ScolarGridViewActivity  extends Activity {
     public void Onclickfive_btn(View v) {
         if (v.getId() == R.id.five_btn) {
             Intent i = new Intent(ScolarGridViewActivity.this,etz_dahat.class);
+            startActivity(i);
+        }
+    }
+
+    public void OnClickUsa(View v){
+        if (v.getId() == R.id.four_btn) {
+            Intent i = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScPBMdnQdU36oKd99pbOuLp1PCYgbIqXnwZNe80D5iK-ahppA/viewform"));
+            startActivity(i);
+        }
+    }
+
+    public void OnClickDonor(View v){
+        if (v.getId() == R.id.nine_btn) {
+            Intent i = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("http://82.80.37.66/impact/DynamicHTML/donor%20apptry.html"));
+            startActivity(i);
+        }
+    }
+
+    public void Onclickletter(View v){
+        if (v.getId() == R.id.six_btn) {
+            Intent i = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("http://82.80.37.66/impact/pdf/Procedure_Letter_Donor.pdf"));
             startActivity(i);
         }
     }

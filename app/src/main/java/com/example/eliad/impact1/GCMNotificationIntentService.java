@@ -125,7 +125,7 @@ public class GCMNotificationIntentService extends IntentService {
 
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
-                this).setSmallIcon(R.mipmap.ic_launcher)
+                this).setSmallIcon(R.mipmap.gudamall)
                 .setContent(remoteViews)
                 .setAutoCancel(true);
 

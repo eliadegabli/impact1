@@ -26,6 +26,8 @@
     <LinearLayout
         android:layout_marginTop="140dp"
         android:id="@+id/one_to_three"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="horizontal"
@@ -34,7 +36,7 @@
 
         <ImageButton
             android:id="@+id/formatLetter"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
@@ -46,21 +48,10 @@
             android:layout_width="1dp"
             android:layout_height="150dp"
             android:background="#cac6e8" />
-        <ImageButton
-            android:id="@+id/uploadLetter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/hetzdaatclali1"
-            android:onClick="onClickupload"
-            android:textSize="25sp" />
-        <View
-            android:layout_width="1dp"
-            android:layout_height="150dp"
-            android:background="#cac6e8" />
+
 
         <ImageButton
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
@@ -69,12 +60,6 @@
             android:id="@+id/procedure"
             android:onClick="onClickprocedure" />
     </LinearLayout>
-
-
-
-
-
-
 
 
 </LinearLayout>

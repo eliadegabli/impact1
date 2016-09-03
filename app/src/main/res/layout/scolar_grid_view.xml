@@ -123,19 +123,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
                 android:background="@drawable/usa1"
-                android:textSize="25sp" />
-            <View
-                android:layout_width="1dp"
-                android:layout_height="95dp"
-                android:background="#cac6e8" />
-
-            <ImageButton
-                android:id="@+id/five_btn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:background="@drawable/tree1"
-                android:onClick="Onclickfive_btn"
+                android:onClick="OnClickUsa"
                 android:textSize="25sp" />
             <View
                 android:layout_width="1dp"
@@ -147,8 +135,22 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
-                android:background="@drawable/meet1"
+                android:onClick="Onclickletter"
+                android:background="@drawable/sendllet1"
                 android:textSize="25sp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="95dp"
+                android:background="#cac6e8" />
+            <ImageButton
+                android:id="@+id/five_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:background="@drawable/tree1"
+                android:onClick="Onclickfive_btn"
+                android:textSize="25sp" />
+
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -194,6 +196,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
                 android:background="@drawable/donor1"
+                android:onClick="OnClickDonor"
                 android:textSize="25sp" />
 
         </LinearLayout>

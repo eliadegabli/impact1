@@ -6,25 +6,28 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="63dp">
+        android:layout_height="40dp"
+        >
 
         <TextView
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="houre"
-            android:id="@+id/TV_HOURE"
+            android:text="hour"
+            android:id="@+id/TV_DATE"
             android:layout_marginLeft="34dp"
             android:layout_marginStart="34dp"
             android:layout_centerVertical="true"
              />
 
         <TextView
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="date"
-            android:id="@+id/TV_DATE"
+            android:id="@+id/TV_HOURE"
             android:layout_marginLeft="54dp"
             android:layout_marginStart="54dp"
              />

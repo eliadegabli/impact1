@@ -55,7 +55,8 @@
         android:layout_gravity="center"
         android:layout_height="0dp"
         android:layout_weight="0.05"
-
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:id="@+id/onSystemButton"
         android:onClick="onClick"
 

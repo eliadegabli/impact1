@@ -61,7 +61,7 @@ public class houers extends ArrayAdapter<Houre> {
         final Houre houre =  houres.get(position);
         vi = inflater.inflate(R.layout.houre, null);
 
-       TextView houres =  (TextView)vi.findViewById(R.id.TV_HOURE);
+        TextView houres =  (TextView)vi.findViewById(R.id.TV_HOURE);
         houres.setText(houre.getHoure());
 
         TextView date =  (TextView)vi.findViewById(R.id.TV_DATE);

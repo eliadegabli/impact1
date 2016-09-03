@@ -32,8 +32,47 @@
         android:id="@+id/TV_PROJECT"
         />
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Month"
+            android:layout_marginRight="35dp"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="95dp"
+            android:background="#cac6e8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Hours"
+            android:id="@+id/textView9"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
     <ListView
-        android:layout_margin="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
         android:background="#fff"
         android:layout_width="match_parent"
         android:layout_height="250dp"

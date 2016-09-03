@@ -35,6 +35,7 @@ public class volunteerHours extends AppCompatActivity {
         feeds.setAdapter(houer);
         houer.notifyDataSetChanged();
         Houre.clearList();
+        Houre.clearSumOfHours();
     }
 
 
