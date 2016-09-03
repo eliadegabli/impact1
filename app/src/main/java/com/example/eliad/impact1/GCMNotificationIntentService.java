@@ -85,7 +85,7 @@ public class GCMNotificationIntentService extends IntentService {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     private void sendNotification(String message) {
-        System.out.println("aa "+message);
+        System.out.println("asssss "+message);
         Log.d(TAG, "Preparing to send notification...: " + message);
         mNotificationManager = (NotificationManager) this
                 .getSystemService(Context.NOTIFICATION_SERVICE);
@@ -119,7 +119,7 @@ public class GCMNotificationIntentService extends IntentService {
         NotificationManager  mNotificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
 
 
-        RemoteViews remoteViews = new RemoteViews(this.getPackageName(), R.layout.notification);
+        RemoteViews remoteViews = new RemoteViews(this.getPackageName(), R.layout.message);
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
 
 
@@ -130,7 +130,7 @@ public class GCMNotificationIntentService extends IntentService {
                 .setAutoCancel(true);
 
 
-      //  remoteViews.setTextViewText(R.id.TV_NOTIFICATION, message);
+        remoteViews.setTextViewText(R.id.TV_NOTIFICATION, message);
      //   remoteViews.setImageViewBitmap(R.id.IV_NOTIFICATIONIMG, ImagesDownloader.downloadBitmap(userImage));
         mBuilder.setDefaults(NotificationCompat.DEFAULT_VIBRATE);
 
@@ -138,11 +138,6 @@ public class GCMNotificationIntentService extends IntentService {
         Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
         r.play();
-
-
-
-
-
 
         mBuilder.setContentIntent(contentIntent);
         mNotificationManager.notify(0, mBuilder.build());

@@ -8,30 +8,36 @@
         android:layout_width="match_parent"
         android:layout_height="63dp">
 
+        <TextView
 
+            android:paddingTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Message"
+            android:id="@+id/TV_MESSAGE"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            />
 
         <TextView
+            android:layout_margin="10dp"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="date"
-            android:shadowColor="#334"
             android:id="@+id/TV_DATE1"
             android:layout_marginLeft="54dp"
             android:layout_marginStart="54dp"
              />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Message"
-            android:layout_marginTop="15dp"
-            android:id="@+id/TV_MESSAGE"
-            android:layout_marginLeft="34dp"
-            android:layout_marginStart="34dp"
-            android:layout_centerVertical="true"
-             />
 
     </RelativeLayout>
 </LinearLayout>
+
+
+
+
+
+

@@ -54,6 +54,7 @@ public class Scolar extends Activity {
             context.startActivity(new Intent(context, ScolarGridViewActivity.class));
         }
 
+        api_gcm.execute();
         etName = (EditText) findViewById(R.id.nameEditText);
         etPassword = (EditText) findViewById(R.id.passwordEditText);
         btnConnect = (Button) findViewById(R.id.onSystemButton);
@@ -72,7 +73,8 @@ public class Scolar extends Activity {
                     return ;
 
                 }
-                api_gcm.execute();
+                System.out.println("ttttt "+regId);
+
                 valuse.put("username", etName.getText().toString());
                 valuse.put("pass", etPassword.getText().toString());
                 valuse.put("registry_id", regId);
@@ -98,6 +100,7 @@ public class Scolar extends Activity {
             GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(Scolar.this);
             try {
                 regId = gcm.register(Const.SENDER_ID);
+
 
             }catch (Exception e){
 
